@@ -5,16 +5,30 @@ using StudentShortProject.StudentService.Implementaton;
 
 
 
-ProfileRepository repository = new ProfileRepository();
-Profile profil = profileRepository.
-Profile name = repository.Create("Sola", "Ester", "male", "yuslaw@yahoo.com");
+//ProfileRepository repository = new ProfileRepository();
+//Profile profile = new Profile()
+//{
+//    Name = "name",
+//    LastName = "lastname",
+//    Email = "email",
+//    Gender = "male"
+//};
+//repository.Create("david", "tola", "email", "gender");
+//Console.WriteLine($"Name: {profile.Name}, Last Name: {profile.LastName}, Gender: {profile.Gender}, Email: {profile.Email}");
 
-ProfileService profileService = ProfileService();
 
-string email = "david@email.com";
+ProfileService profileService = new ProfileService();
+Profile profile = new Profile()
+{
 
-// Call the Get method
-Profile profile = profileService.Get(email);
+    Name = "name",
+    LastName = "lastname",
+    Email = "email",
+    Gender = "male"
+};
+Console.WriteLine($"Name: {profile.Name}, Last Name: {profile.LastName}, Gender: {profile.Gender}, Email: {profile.Email}");
+
+
 
 if (profile != null)
 {

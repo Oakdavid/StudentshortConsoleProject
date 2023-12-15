@@ -1,0 +1,15 @@
+C:\Users\HP\Documents\VS_Application\StudentShortProject\bin\Debug\net8.0\StudentShortProject.exe
+C:\Users\HP\Documents\VS_Application\StudentShortProject\bin\Debug\net8.0\StudentShortProject.deps.json
+C:\Users\HP\Documents\VS_Application\StudentShortProject\bin\Debug\net8.0\StudentShortProject.runtimeconfig.json
+C:\Users\HP\Documents\VS_Application\StudentShortProject\bin\Debug\net8.0\StudentShortProject.dll
+C:\Users\HP\Documents\VS_Application\StudentShortProject\bin\Debug\net8.0\StudentShortProject.pdb
+C:\Users\HP\Documents\VS_Application\StudentShortProject\obj\Debug\net8.0\StudentShortProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\VS_Application\StudentShortProject\obj\Debug\net8.0\StudentShortProject.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\VS_Application\StudentShortProject\obj\Debug\net8.0\StudentShortProject.AssemblyInfo.cs
+C:\Users\HP\Documents\VS_Application\StudentShortProject\obj\Debug\net8.0\StudentShortProject.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\VS_Application\StudentShortProject\obj\Debug\net8.0\StudentShortProject.sourcelink.json
+C:\Users\HP\Documents\VS_Application\StudentShortProject\obj\Debug\net8.0\StudentShortProject.dll
+C:\Users\HP\Documents\VS_Application\StudentShortProject\obj\Debug\net8.0\refint\StudentShortProject.dll
+C:\Users\HP\Documents\VS_Application\StudentShortProject\obj\Debug\net8.0\StudentShortProject.pdb
+C:\Users\HP\Documents\VS_Application\StudentShortProject\obj\Debug\net8.0\StudentShortProject.genruntimeconfig.cache
+C:\Users\HP\Documents\VS_Application\StudentShortProject\obj\Debug\net8.0\ref\StudentShortProject.dll

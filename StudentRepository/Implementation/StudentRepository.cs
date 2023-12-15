@@ -11,20 +11,26 @@ namespace StudentShortProject.StudentRepository.Implementation
     public class StudentRepository : IStudentCreateRepository, IStudentGetAllRepository, IStudentGetRepository
     {
 
-        StudentRepository studentRepository = new StudentRepository();
+        List<Student> student = new List<Student>();
         public void Create(string matricNo, string department)
         {
-            studentRepository.Create(matricNo, department);
+            var student = new Student()
+            {
+                MatricNumber = matricNo,
+                Department = department
+            };
         }
 
         public List<Student> GetAll(int id)
         {
-            return studentRepository.GetAll(id);
+           var list = new List<Student>();
+            return list;
         }
 
         public Student GetStudent(string martricNo)
         {
-            return studentRepository.GetStudent(martricNo);
+            var students = student.SingleOrDefault(students => students.MatricNumber == martricNo);
+            return students;
         }
     }
 }

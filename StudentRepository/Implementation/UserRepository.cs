@@ -11,21 +11,26 @@ namespace StudentShortProject.StudentRepository.Implementation
 {
     public class UserRepository : IUserRepository
     {
-        UserRepository userRepository = new UserRepository();
+        List<User> user = new List<User>();
         public void Create(string email, string password)
         {
-            userRepository.Create(email, password);
+            var user = new User()
+            {
+                Email = email,
+                Password = password
+            };
         }
 
         public User Get(string email)
         {
-            return userRepository.Get(email);
-           // return StudentContext.usersDb.FirstOrDefault( a => a.Email == email);
+           var userGet = user.SingleOrDefault(x => x.Email == email);
+            return userGet;
         }
 
         public List<User> GetAll()
         {
-             return userRepository.GetAll();
+             var userList = new List<User>();
+            return userList;
         }
     }
 }

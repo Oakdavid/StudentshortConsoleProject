@@ -11,42 +11,41 @@ namespace StudentShortProject.StudentRepository.Implementation
 {
     public class ProfileRepository : IProfileRepository
     {
-        ProfileRepository profileRepository = new ProfileRepository();
-        // List<Profile> profile = new List<Profile>();
 
+        List<Profile> profiles = new List<Profile>();
 
         public void Create(string name, string lastName, string gender, string email)
         {
-            profileRepository.Create(name, lastName, gender, email);
-            //Profile profile = new Profile()
-            //{
-            //    Name = name,
-            //    LastName = lastName,
-            //    Gender = gender,
-            //    Email = email
-            //};
-            //profileRepository.Create(profile);
-           // profile.Add(profile);
+
+            Profile profile = new Profile()
+            {
+                Name = name,
+                LastName = lastName,
+                Gender = gender,
+                Email = email
+            };
+            profiles.Add(profile);
+            
         }
 
-        //public Profile Get(int id)
-        //{
-        //    return profileRepository.Get(id);
-        //}
 
         public Profile Get(string email)
         {
-            return profileRepository.Get(email);
+           var  s = profiles.SingleOrDefault(s => s.Email == email);
+           return s;
         }
 
         public List<Profile> GetAll()
         {
-            return profileRepository.GetAll();
+           var profileList = new List<Profile>();
+           return profileList;
         }
 
         public Profile Update(string gender)
         {
-            return profileRepository.Update(gender);
+            var updateProfile = profiles.FirstOrDefault(s => s.Gender == gender);
+            return updateProfile;
+
         }
     }
 }
